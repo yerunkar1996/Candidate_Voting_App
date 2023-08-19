@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        form{
+            width: 40%;
+            margin: auto;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <form action="/loginPost" method="get">
+        <input type="text" placeholder="USERNAME" name="username"required /><br><br>
+
+        <input type="password" placeholder="PASSWORD" name="password" required /><br><br>
+
+        <button>LOGIN</button> &nbsp;
+        <button ><a href="/register">REGISTER</a></button>
+    </form>
+</body>
+</html>

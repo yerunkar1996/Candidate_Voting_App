@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        form{
+            width: 40%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <form action="/registerPost" method="get">
+        <input type="text" placeholder="USERNAME" name="username" required/><br><br>
+
+        <input type="password" placeholder="PASSWORD" name="password" required/><br><br>
+
+        <input type="email" placeholder="EMAIL ID" name="email" required/><br><br>
+
+        <input type="number" placeholder="MOBILE NO" name="mobile" required/><br><br>
+
+        <button><a href="/login">LOGIN</a></button> &nbsp;
+        <button>REGISTER</button>
+    </form>
+</body>
+</html>
